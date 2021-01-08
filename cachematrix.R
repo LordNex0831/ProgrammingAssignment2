@@ -22,7 +22,7 @@ makeCacheMatrix<-function(m=matrix()){
 }
 
 
-## The function cacheSolve computes the inverse of the special matrix returned my the above function
+## The function cacheSolve computes the inverse of the special matrix returned by the above function
 
 cahceSolve<-function(x,...){
   m<-x$getInverse()
